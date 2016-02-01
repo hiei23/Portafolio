@@ -1,3 +1,1 @@
-README
-
-course project for CSC207
+**course project for CSC207**
