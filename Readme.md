@@ -2,7 +2,7 @@
 
 #### CSC207 fall 2014 project - Triage ####
 
-It involed creating an Android app for a triage. 
+It involed creating a basic Android app for a triage. 
 
 **Features**:
 
