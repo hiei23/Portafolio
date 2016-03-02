@@ -1,12 +1,16 @@
-***Readme***
+## Readme ##
 
---Triage--
+#### CSC207 fall 2014 project - Triage ####
 
-A course project for the course csc207.
-It involed creating a Triage Android app that keeps track of the vital signs of a patient as well as keeping track of patients that arrive.
+It involed creating an Android app for a triage. 
 
-Features
+**Features**:
 
-- Create new records for patients
-- Sorts a waiting list by arrival time and priority type
-- Search Patient
+- Create new records for patients.
+- Sorts a waiting list by arrival time and urgency.
+- Search Patient.
+- Update vital signs.
+- Display Prescription given to a patient
+- Display last visit.
+- Display patient health record.
+- Add patient to the waiting list.
