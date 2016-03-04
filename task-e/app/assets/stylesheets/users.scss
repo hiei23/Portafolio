@@ -1,0 +1,94 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "variables";
+h1 {
+  font-size: 10em;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #ffffff;
+  background: $blue;
+  padding: 0px;
+  left: 0;
+  line-height: 100%;
+  margin: 0em;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  padding: 8% 0px .15em;
+}
+body {
+	background-color: $blue;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*.row{
+	color: #ffffff;
+	text-align: center;
+}*/
+
+.user_heading{
+	font-size: 5em;
+	padding: 5% 0px .15em;
+}
+
+#error_explanation{
+	width: 100%;
+	margin: 0em 0em 10px 0em;
+	background-color: #dea59a;
+	color: #ffffff;
+}
+
+#notice{
+	background-color: $blue;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+    color: $yellow;
+    font-weight: bold;
+    font-Family: 'Trebuchet MS', 'sans-serif', 'Arial';
+}
+
+/*label{
+	color: #89bdd3;
+	font-weight: bold;
+}*/
+
+
+
+input[type=text]{
+	background-color: transparent;
+    border: 0px solid #ffffff;
+    border-bottom-width: 1px;
+    color: #ffffff;
+    height: 28px;
+    margin-right:10px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    width: 191px;
+    box-shadow: none;
+    text-align: center;
+}
+
+
+
+p{
+	color: #ffffff;
+	position: center;
+	padding: 5px;
+	text-align: center;
+}
+
+a:link, a:visited, a:active{
+	color: #ffffff;
+	text-decoration: none;
+	background: transparent;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #89bdd3;
+	background-color: transparent;
+}

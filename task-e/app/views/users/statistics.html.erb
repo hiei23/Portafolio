@@ -1,0 +1,65 @@
+<h1> Statistics for <%= @user.name %> </h1>
+
+<br>
+<p> Total hours left : <%= @user.calcTotalHours %> </p>
+<p> Today: <%= @user.calcMinDailyHrs %> </p>
+<table>
+  <thead>
+    <tr>
+      <th>Task name</th>
+      <th>Required time</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tasksToday.each do |task| %>
+      <tr>
+        <td><%= task.task_name %></td>
+        <td><%= task.required_time %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<p> This week: <%= @user.calcMinWeekHrs %> </p>
+<table>
+  <thead>
+    <tr>
+      <th>Task name</th>
+      <th>Required time</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tasksWeek.each do |task| %>
+      <tr>
+        <td><%= task.task_name %></td>
+        <td><%= task.required_time %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<p> This month: <%= @user.calcMinMonthHrs %> </p>
+<table>
+  <thead>
+    <tr>
+      <th>Task name</th>
+      <th>Required time</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tasksMonth.each do |task| %>
+      <tr>
+        <td><%= task.task_name %></td>
+        <td><%= task.required_time %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'Back', user_path(@user),:id => 'links' %>

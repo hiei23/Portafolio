@@ -1,0 +1,45 @@
+// Place all the styles related to the sign up here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables";
+#registration-label
+{
+  font-weight: bold;
+  color: white;
+  font-Family: 'Trebuchet MS', 'sans-serif', 'Arial';
+  text-align:center;
+}
+
+.registration-row{
+  color: black;
+  background: $blue;
+  border: 7px solid $blue;
+  text-align: center;
+}
+
+input[type=password_confirmation]{
+  background-color: transparent;
+  border: 0px solid #ffffff;
+  border-bottom-width: 1px;
+  color: #ffffff;
+  height: 28px;
+  margin-right:10px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  width: 200px;
+  box-shadow: none;
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  font-size: 16px;
+}
+
+#button {
+  height: 40px;
+  width: 110px;
+  background: $blue;
+  border-radius: 14px;
+  border: 3px solid white;
+  color: white;
+  font-Family: sans-serif, Arial;
+  font-weight: bold;
+}

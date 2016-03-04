@@ -1,0 +1,25 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables";
+th
+{
+  color: $black;
+  text-align: center;
+  padding: 10px;
+}
+
+td
+{
+  text-align: center;
+  color: $black;
+}
+
+.newTaskLabel
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: $black;
+  font-Family: 'Trebuchet MS', 'sans-serif', 'Arial';
+  text-align:center;
+}

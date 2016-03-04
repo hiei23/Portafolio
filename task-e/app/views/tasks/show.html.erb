@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Task name:</strong>
+  <%= @task.task_name %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= @task.due_date %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @task.weight %>
+</p>
+
+<p>
+  <strong>Progress:</strong>
+  <%= @task.progress %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @task.priority %>
+</p>
+
+<p>
+  <strong>Required time:</strong>
+  <%= @task.required_time %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @task.user %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @task.tag %>
+</p>
+
+<% if logged_in? %>
+  <%= link_to 'Edit', edit_task_path(@task), :id =>'links' %> |
+<% end %>
+
+<%= link_to 'Back', user_path(@task.user) , :id =>'links'%>

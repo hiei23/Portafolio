@@ -1,0 +1,72 @@
+<p id="notice"><%= notice %></p>
+
+<h1 class="user_heading">Listing Tasks for <%= @user.name %></h1>
+
+<%= form_tag user_path(@user), :method => 'get' do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search by tag", :tag => nil,:class => 'button' %>
+  </p>
+<% end %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Task name</th>
+      <th>Due date</th>
+      <th>Weight</th>
+      <th>Progress</th>
+      <th>Priority</th>
+      <th>Required time</th>
+      <th>User</th>
+      <th>Tag</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tasks.each do |task| %>
+      <tr>
+        <td><%= task.task_name %></td>
+        <td><%= task.due_date %></td>
+        <td><%= task.weight %></td>
+        <td><%= task.progress %></td>
+        <td><%= task.priority %></td>
+        <td><%= task.required_time %></td>
+        <td><%= task.user.name %></td>
+        <td><%= task.tag %></td>
+        <td><%= link_to 'Show', task , :id =>'links'%></td>
+        <td><%= link_to 'Edit', edit_task_path(task), :id =>'links' %></td>
+        <td><%= link_to 'Delete', task, method: :delete, data: {confirm: 'Are you sure?'}, :id =>'links' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+<% if logged_in? %>
+  <%= link_to 'New Task', new_task_path(:id => current_user.id) ,:id => 'links'%> | <%= link_to 'Statistics', controller: "users", action: "statistics", id: current_user.id %>
+  <br>
+  <br>
+
+  <%= form_tag user_path(@user), :method => 'get' do %>
+    <p>
+      <%= select_tag(:algorithm, options_for_select([['1', 1], ['2', 2], ['3', 3]], 1)) %>
+      <%= submit_tag "Select Algorithm", :algorithm => nil,:class => 'button' %>
+    </p>
+  <% end %>
+     <subtitle id="subTitle">Algorithm options:</subtitle>
+    <br>
+    <ol>
+      <li>general algorithm : balance of weight, progress, and time from due date</li>
+      <li>under progress algorithm: progress is less of a factor in calculating priority</li>
+      <li>under weight algorithm : weight is less of a factor in calculating priority</li>
+    </ol>
+    <br>
+
+
+
+  <%= link_to 'Edit Profile', edit_user_path(@user) ,:id => 'links'%> |
+    <%= link_to "Log out", logout_path,:id => 'links', method: "delete" %>
+
+<% end %>

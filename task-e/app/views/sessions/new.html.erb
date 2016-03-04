@@ -1,0 +1,25 @@
+<% provide(:title, "Log in") %>
+
+<h1>Task-E</h1>
+<div class="row">
+
+    <div class="col-md-6 col-md-offset-3">
+      <%= form_for(:session, url: login_path) do |f| %>
+
+          <p><%= f.label :email , :class=>"label"%></p>
+          <p><%= f.email_field :email%></p>
+
+          <p ><%= f.label :password ,:class=>"label"%></p>
+          <p ><%= f.password_field :password%></p>
+
+          <%= f.submit "Log in",:class => "button" %>
+      <% end %>
+
+      <p id="label">New user? <%= link_to "Sign up now!", signup_path %></p>
+    </div>
+
+</div>
+
+<% if logged_in? %>
+	<p>Logged in</p>
+<% end %>
