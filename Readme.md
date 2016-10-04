@@ -28,7 +28,7 @@ https://github.com/hiei23/csc309a4
 
 Technology used: **Ruby on Rails, postgreSQL, HTML, SASS**
 
-### CSC207 fall 2014 project - Triage ###
+## CSC207 fall 2014 project - Triage ##
 
 It involed creating a basic Android app for a triage. 
 
