@@ -8,7 +8,7 @@ Technology used: **Node.js, javascript, postgreSQL, jQuery, HTML, CSS**
 
 **Features**:
 
-One-to-one messaging between users
+* One-to-one messaging between users
 * Group messaging among users who are attending the same sporting event.
 * After each event, users who attended the same sporting event can rate each other and leave
 comments anonymously. A user’s rating in a specific sport and the comments left are set as
