@@ -9,11 +9,11 @@ Technology used: **Node.js, javascript, postgreSQL, jQuery, HTML, CSS**
 **Features**:
 
 One-to-one messaging between users
-• Group messaging among users who are attending the same sporting event.
-• After each event, users who attended the same sporting event can rate each other and leave
+* Group messaging among users who are attending the same sporting event.
+* After each event, users who attended the same sporting event can rate each other and leave
 comments anonymously. A user’s rating in a specific sport and the comments left are set as
 public to be seen by all users.
-• Optimized Search and Recommendation System to search for both users and events and
+* Optimized Search and Recommendation System to search for both users and events and
 results are ranked according to the user’s query and personal data.
 
 https://github.com/hiei23/csc309a4
