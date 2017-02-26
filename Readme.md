@@ -1,6 +1,6 @@
 ## Readme ##
 
-[## CSC309 summer 2016 project - tsports ##](https://github.com/hiei23/csc309a4)
+## CSC309 summer 2016 project - tsports ##
 
 Team sharing economy web application. 
 
@@ -16,7 +16,8 @@ public to be seen by all users.
 * Optimized Search and Recommendation System to search for both users and events and
 results are ranked according to the user’s query and personal data.
 
-website: [tsports.ca](http://www.tsports.ca/)
+[Source Code](https://github.com/hiei23/csc309a4)
+Website: [tsports.ca](http://www.tsports.ca/)
 
 [## CSC301 fall 2015 project - Task-E ##](https://github.com/hiei23/task-e)
 
@@ -27,8 +28,9 @@ website: [tsports.ca](http://www.tsports.ca/)
 * It aids the user in giving a clear view of the comparison of users' tasks and deadlines.
 
 Technology used: **Ruby on Rails, postgreSQL, HTML, SASS**
+[Source Code](https://github.com/hiei23/task-e)
 
-[## CSC207 fall 2014 project - Triage ##](https://github.com/hiei23/triage)
+## CSC207 fall 2014 project - Triage ##
 
 It involed creating a basic Android app for a triage. 
 
@@ -43,3 +45,4 @@ It involed creating a basic Android app for a triage.
 - Display patient health record.
 - Add patient to the waiting list.
 
+[Source Code](https://github.com/hiei23/triage)
