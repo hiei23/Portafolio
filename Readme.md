@@ -1,6 +1,6 @@
 ## Readme ##
 
-## CSC309 summer 2016 project - tsports ##
+[## CSC309 summer 2016 project - tsports ##](https://github.com/hiei23/csc309a4)
 
 Team sharing economy web application. 
 
@@ -16,9 +16,9 @@ public to be seen by all users.
 * Optimized Search and Recommendation System to search for both users and events and
 results are ranked according to the user’s query and personal data.
 
-https://github.com/hiei23/csc309a4
 
-## CSC301 fall 2015 project - Task-E ##
+
+[## CSC301 fall 2015 project - Task-E ##](https://github.com/hiei23/task-e)
 
 ### Project objectives ###
 * Design a scheduler that allows prioritization of tasks based on user's input
@@ -28,7 +28,7 @@ https://github.com/hiei23/csc309a4
 
 Technology used: **Ruby on Rails, postgreSQL, HTML, SASS**
 
-## CSC207 fall 2014 project - Triage ##
+[## CSC207 fall 2014 project - Triage ##](https://github.com/hiei23/triage)
 
 It involed creating a basic Android app for a triage. 
 
