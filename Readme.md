@@ -16,7 +16,7 @@ public to be seen by all users.
 * Optimized Search and Recommendation System to search for both users and events and
 results are ranked according to the user’s query and personal data.
 
-[visit me](http://www.tsports.ca/)
+website: [tsports.ca](http://www.tsports.ca/)
 
 [## CSC301 fall 2015 project - Task-E ##](https://github.com/hiei23/task-e)
 
