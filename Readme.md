@@ -20,7 +20,7 @@ results are ranked according to the user’s query and personal data.
 
 Website: [tsports.ca](http://www.tsports.ca/)
 
-[## CSC301 fall 2015 project - Task-E ##](https://github.com/hiei23/task-e)
+## CSC301 fall 2015 project - Task-E ##
 
 ### Project objectives ###
 * Design a scheduler that allows prioritization of tasks based on user's input
