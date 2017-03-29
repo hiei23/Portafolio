@@ -29,6 +29,7 @@ Website: [tsports.ca](http://www.tsports.ca/)
 * It aids the user in giving a clear view of the comparison of users' tasks and deadlines.
 
 Technology used: **Ruby on Rails, postgreSQL, HTML, SASS**
+
 [Source Code](https://github.com/hiei23/task-e)
 
 ## CSC207 fall 2014 project - Triage ##
