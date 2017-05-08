@@ -2,6 +2,22 @@
 
 ## [Personal Website](https://hiei23.github.io/sihua.caoliu.github.io/) ##
 
+## CSC494 fall-winter 2017 - Capstone Project##
+
+ United Steel Workers Health and Safety App
+
+Technology used: **Node.js, Javascript, MongoDB, jQuery, HTML, CSS, Cordova**
+
+**Features**:
+
+* Display workplace health and safety content.
+* Search through USW’s health and safety documentation.
+* Provide members a way to give feedback.
+* Support English and French languages.
+* Add content through an administrator page.
+
+website: [uswapp.herokuapp.com](https://uswapp.herokuapp.com/)
+
 ## CSC309 summer 2016 project - tsports ##
 
 Team sharing economy web application. 
