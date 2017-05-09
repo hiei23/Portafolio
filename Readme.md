@@ -17,7 +17,8 @@ Technology used: **Node.js, Javascript, MongoDB, jQuery, HTML, CSS, Cordova**
 * Add content through an administrator page.
 
 website: [uswapp.herokuapp.com](https://uswapp.herokuapp.com/)
-## CSC404 - Game Design Project 
+
+## CSC404 - Winter 2017 - Game Design Project 
 
 Cat's cradle
 
