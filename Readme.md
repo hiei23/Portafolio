@@ -2,9 +2,9 @@
 
 ## [Personal Website](https://hiei23.github.io/sihua.caoliu.github.io/) ##
 
-## CSC494 fall-winter 2017 - Capstone Project##
+## CSC494 fall-winter 2017 - Capstone Project 
 
- United Steel Workers Health and Safety App
+United Steel Workers Health and Safety App
 
 Technology used: **Node.js, Javascript, MongoDB, jQuery, HTML, CSS, Cordova**
 
@@ -17,7 +17,19 @@ Technology used: **Node.js, Javascript, MongoDB, jQuery, HTML, CSS, Cordova**
 * Add content through an administrator page.
 
 website: [uswapp.herokuapp.com](https://uswapp.herokuapp.com/)
+## CSC404 - Game Design Project 
 
+Cat's cradle
+
+**Story** 
+
+In a desperate attempt to make them behave, an impatient cat owner has tied their two cats together with a string. But the cats are having none of this, and are hell-bent on retrieving their favourite snacks and destroying as much of their owner’s home as possible in the process.
+
+**Goals**
+
+Cat’s Cradle is a two-player cooperative/competitive game. Players must work together to find fish (cat treats) and destroy as much as possible in a set time limit.
+
+[Source Code](https://github.com/hiei23/csc404-prototype)
 ## CSC309 summer 2016 project - tsports ##
 
 Team sharing economy web application. 
