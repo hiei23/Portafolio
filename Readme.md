@@ -49,7 +49,7 @@ results are ranked according to the user’s query and personal data.
 
 [Source Code](https://github.com/hiei23/csc309a4)
 
-Website: [tsports.ca](http://www.tsports.ca/)
+Website: [tsports.ca](https://tsports.herokuapp.com//)
 
 ## CSC301 fall 2015 project - Task-E ##
 
