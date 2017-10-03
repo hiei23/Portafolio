@@ -34,7 +34,7 @@ Cat’s Cradle is a two-player cooperative/competitive game. Players must work t
 
 ## CSC302 Winter 2016 project - TA Assignment Prototype ##
 
-Technology used: ** Javascript, HTML, CSS, React, Redux, Rust**
+Technology used: **Javascript, HTML, CSS, React, Redux, Rust**
 
 this project was created to help the departmental Teaching Assistant coordinator, is the faculty member who ultimately signs the contract offer letter for each TA we hire. 
 The ta-coord chooses which of the applicants we hire and which course they will be assigned to. 
