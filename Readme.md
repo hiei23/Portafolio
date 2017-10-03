@@ -31,6 +31,24 @@ In a desperate attempt to make them behave, an impatient cat owner has tied thei
 Cat’s Cradle is a two-player cooperative/competitive game. Players must work together to find fish (cat treats) and destroy as much as possible in a set time limit.
 
 [Source Code](https://github.com/hiei23/csc404-prototype)
+
+## CSC302 Winter 2016 project - TA Assignment Prototype ##
+
+Technology used: ** Javascript, HTML, CSS, React, Redux, Rust**
+
+this project was created to help the departmental Teaching Assistant coordinator, is the faculty member who ultimately signs the contract offer letter for each TA we hire. 
+The ta-coord chooses which of the applicants we hire and which course they will be assigned to. 
+In a typical fall or winter session the ta-coordinator will make about 350 assignments. (This is a very time consuming project, between one and two person weeks of effort.) 
+Any UI and/or search and/or filtering workflow innovations that have potential to save labour are worth evaluating.
+
+**Features**:
+
+* Filters applicants by education level, experience and program.
+* Filters courses by undergraduate and graduate type.
+* Assign TA by right cliking an applicant
+
+[Source Code](https://github.com/hiei23/taAssignment)
+
 ## CSC309 summer 2016 project - tsports ##
 
 Team sharing economy web application. 
