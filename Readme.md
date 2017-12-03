@@ -18,6 +18,12 @@ Technology used: **Node.js, Javascript, MongoDB, jQuery, HTML, CSS, Cordova**
 
 website: [uswapp.herokuapp.com](https://uswapp.herokuapp.com/)
 
+## Big data - Map Reduce ##
+Technology used: **python with a map reduce framework**
+
+Designed and implemented MapReduce algorithms for a variety of data processing tasks such as inverted index, word count, join, symmetric friends and cleaning DNA sequences.
+
+[Source Code](https://github.com/hiei23/csc443a2)
 ## CSC404 - Winter 2017 - Game Design Project 
 
 Cat's cradle
