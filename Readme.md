@@ -1,5 +1,3 @@
-## Readme
-
 ## PokeTable 2021 - Side Project
 
 Basic Pokedex web app
