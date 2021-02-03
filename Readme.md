@@ -15,6 +15,12 @@ Technology used: **Javascript, React, Material-UI, HTML, CSS, Cypress**
 
 [Source Code](https://github.com/hiei23/pokedex)
 
+## Open source contribution to Mozilla/Servo Feburary 2017
+
+- Implemented `grid-row-gap` and `grid-column-gap` following Mozilla specifications leading the project to be tested and successfully be approved by the Mozilla development team.
+
+[Pull request link](https://github.com/servo/servo/pull/15466)
+
 ## CSC494 fall-winter 2017 - Capstone Project
 
 United Steel Workers Health and Safety App
