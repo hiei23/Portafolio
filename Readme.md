@@ -1,7 +1,5 @@
 ## Readme
 
-## [Personal Website](https://hiei23.github.io/sihua.caoliu.github.io/)
-
 ## PokeTable 2021 - Side Project
 
 Basic Pokedex web app
@@ -11,8 +9,8 @@ Technology used: **Javascript, React, Material-UI, HTML, CSS, Cypress**
 **Features**:
 
 - Display a collapsable table with pokemon names.
-- Display pokemon information and stats.
-- Pagination.
+- Display pokemon information and base stats.
+- Table Pagination.
 - Responsive layout
 
 [Source Code](https://github.com/hiei23/pokedex)
